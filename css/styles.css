@@ -1,0 +1,181 @@
+:root {
+  --first-title-color:  #FFFFFF;
+  --second-title-color:  #434455;  
+  --third-title-color: #2E2F42;
+}
+
+body {
+  --main-font: 'Open Sans', 'sans-serif';
+  color: #2E2F42;
+  font-family: var(--main-font);
+}
+
+p {
+  color: #434455;  
+}
+
+a {
+  color: #434455;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.site-body {
+}
+
+/*-------- HEADER----------*/
+.header {
+}
+.header-navigation {
+}
+.text-logo {
+}
+.header-list {
+}
+.header-item {
+}
+.header-link {
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 1.5px;
+letter-spacing: 0.02em;
+color: #2E2F42;
+}
+.header-link:hover {
+   color: blue;
+}
+
+.header-link:focus {
+    color: blue;
+}
+
+.header-tell {
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1,5px;
+letter-spacing: 0.02em;
+color:var(--third-title-color);
+cursor: pointer;
+}
+.header-btn {
+font-family: inherit;
+font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+display: flex;
+align-items: center;
+letter-spacing: 0.04em;
+color:var(--first-title-color);
+cursor: pointer;
+}
+
+
+/*-------- HERO----------*/
+
+
+.hero {
+    background-color: #2E2F42;;
+}
+.hero-title {
+    font-family: 'Roboto', sans-serif;
+font-weight: 600;
+font-size: 56px;
+line-height: 1.07;
+text-align: center;
+letter-spacing: 0.02em;
+color:var(--first-title-color);
+}
+.header-btn {
+}
+.hero-after-title {
+}
+
+
+/*-------- ABOUT----------*/
+
+.about {
+}
+.about-list {
+}
+.about-item {
+}
+.about-title {
+font-family: 'Roboto';
+font-weight: 600;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color:var(--third-title-color);
+}
+.about-after-title {
+font-family: 'Roboto';
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color:var(--second-title-color);
+}
+
+/*-------- MOBILE----------*/
+
+.mobile {
+}
+.mobile-title {
+    font-family: 'Roboto';
+font-weight: 600;
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: var(--third-title-color);
+}
+.mobile-list {
+}
+.mobile-item {
+}
+
+/*-------- PEOPLE----------*/
+
+.people-title {
+font-family: 'Roboto';
+font-weight: 600;
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color:var(--third-title-color);
+}
+.people-list {
+}
+.list {
+}
+.people-item {
+}
+.people-after-title {
+font-family: 'Roboto';
+font-weight: 600;
+font-size: 20px;
+line-height: 1.2;
+text-align: center;
+letter-spacing: 0.02em;
+color:var(--third-title-color);
+}
+.people-text {
+font-family: 'Roboto';
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+text-align: center;
+letter-spacing: 0.02em;
+color: var(--second-title-color);
+}
