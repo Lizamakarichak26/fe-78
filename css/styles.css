@@ -5,7 +5,6 @@
 }
 
 body {
-  --main-font: 'Open Sans', 'sans-serif';
   color: #2E2F42;
   font-family: var(--main-font);
 }
@@ -73,7 +72,7 @@ line-height: 19px;
 display: flex;
 align-items: center;
 letter-spacing: 0.04em;
-color:var(--first-title-color);
+color:var(--second-title-color);
 cursor: pointer;
 }
 
@@ -82,7 +81,7 @@ cursor: pointer;
 
 
 .hero {
-    background-color: #2E2F42;;
+    background-color: #2E2F42;
 }
 .hero-title {
     font-family: 'Roboto', sans-serif;
@@ -133,9 +132,9 @@ color:var(--second-title-color);
 font-weight: 600;
 font-size: 36px;
 line-height: 1.11;
-text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
+text-align: center;
 color: var(--third-title-color);
 }
 .mobile-list {
@@ -150,9 +149,9 @@ font-family: 'Roboto';
 font-weight: 600;
 font-size: 36px;
 line-height: 1.11;
-text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
+text-align: center;
 color:var(--third-title-color);
 }
 .people-list {
@@ -166,8 +165,8 @@ font-family: 'Roboto';
 font-weight: 600;
 font-size: 20px;
 line-height: 1.2;
-text-align: center;
 letter-spacing: 0.02em;
+text-align: center;
 color:var(--third-title-color);
 }
 .people-text {
@@ -175,7 +174,21 @@ font-family: 'Roboto';
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
+letter-spacing: 0.02em;
 text-align: center;
+color: var(--second-title-color);
+}
+
+.end {
+    background-color: aqua;
+}
+
+.end-text {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--second-title-color);
 }
