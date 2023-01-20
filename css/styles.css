@@ -2,6 +2,9 @@
   --first-title-color:  #FFFFFF;
   --second-title-color:  #434455;  
   --third-title-color: #2E2F42;
+  --fourth-title-color:#4D5AE5;
+  --fifth-title-color:#404BBF;
+  --sixth-title-color: #F4F4FD;
 }
 
 body {
@@ -51,8 +54,6 @@ font-style: normal;
 font-weight: 800;
 font-size: 18px;
 line-height: 21px;
-display: flex;
-align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #2E2F42;
@@ -68,7 +69,7 @@ font-weight: 600;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: #434455;;
+color:  #2E2F42;
 }
 .header-link:hover {
    color: #4D5AE5;
@@ -178,6 +179,9 @@ color: var(--third-title-color);
 
 /*-------- PEOPLE----------*/
 
+.people {
+    background-color:  #F4F4FD;
+}
 .people-title {
 font-family: 'Roboto', sans-serif;
 font-weight: 600;
@@ -187,14 +191,16 @@ letter-spacing: 0.02em;
 text-transform: capitalize;
 text-align: center;
 color:var(--third-title-color);
+
 }
 .people-list {
-    background-color:  #F4F4FD;;
+   
 }
 .list {
     
 }
 .people-item {
+ color:    #FFFFFF;
 }
 .people-after-title {
 font-family: 'Roboto', sans-serif;
@@ -220,16 +226,17 @@ color: var(--second-title-color);
 }
 .end {
 }
-
-.logo {
+.logo-end {
     text-decoration: none;
-    font-family: 'Raleway' sans-serif;
+    font-family: 'Raleway', sans-serif;
 font-weight: 800;
 font-size: 18px;
 line-height: 1.1;
 letter-spacing: 0.03em;
 color: #4D5AE5;
 }
+
+
 .logo-footer {
     color: #F4F4FD;
 }
@@ -253,23 +260,23 @@ color: #E7E9FC;
     background: #F4F4FD;
 }
 
-.btn:focus,
-.btn:hover {
-    background: #404BBF;
+.btn:hover,
+.btn:focus {
+    background:  #404BBF;
     color: #FFFFFF
 
 }
     .btn {
         font-family: ‘Roboto’, sans-serif;
-        font-weight: 600;
-        font-size: 16px;
-        line-height: 1.2;
-        display: flex;
-        align-items: center;
-        letter-spacing: 0.04em;
-        color:#4D5AE5;
-        cursor: pointer;
-        background-color: #F4F4FD;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.2;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color:#4D5AE5;
+    cursor: pointer;
+    background-color: #F4F4FD;
 }
 
 .mobile-list {
