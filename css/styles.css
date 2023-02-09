@@ -488,9 +488,8 @@ color:var(--third-title-color);
 }
 .end-soc-list {
     display: flex;
-    gap: 24px;
-
-    margin-top: 24px;
+    gap: 16px;
+    margin-top: 16px;
 }
 .container {
 }
