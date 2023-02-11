@@ -99,7 +99,15 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #2E2F42;
 }
-
+.header-item {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: #434455;
+}
 
 .header-list {
     display: flex;
@@ -115,6 +123,7 @@ color: #2E2F42;
 }
 
 .header-link {
+    font-family: 'Roboto' sans-serif;
 font-weight: 600;
 font-size: 16px;
 line-height: 1.5;
@@ -139,6 +148,7 @@ align-items: center;
 
 
 .header-tell {
+    font-family: 'Roboto' sans-serif;
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
@@ -489,7 +499,7 @@ color:var(--third-title-color);
 .end-soc-list {
     display: flex;
     gap: 16px;
-    margin-top: 16px;
+    margin-top: 24px;
 }
 .container {
 }
