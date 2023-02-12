@@ -137,7 +137,7 @@ align-items: center;
 .header-link:hover,
 .header-link:focus,
 .header-link.current {
-    color:  #2E2F42;
+    color:  #4D5AE5;
 }
 .header-link:hover {
    color: #4D5AE5;
@@ -150,7 +150,7 @@ align-items: center;
 .header-item {
     font-family: 'Roboto';
 font-style: normal;
-font-weight: 400;
+font-weight: 500;
 font-size: 16px;
 line-height: 24px;
 letter-spacing: 0.02em;
