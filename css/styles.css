@@ -132,8 +132,22 @@ color: #434455;
     color: #2E2F42;    
 display: flex;
 align-items: center;
+transition: color 250ms linear;
+position: relative;
 
 }
+.header-link.current::after {
+content:"" ;
+position: absolute;
+width: 100%;
+height: 4px;
+background-color: #404BBF;
+left: 0;
+bottom: -24px;
+border-radius: 2px;
+
+}
+
 .header-link:hover,
 .header-link:focus,
 .header-link.current {
@@ -148,13 +162,14 @@ align-items: center;
     color: #4D5AE5;
 }
 .header-item {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
 font-style: normal;
-font-weight: 500;
+font-weight: 400;
 font-size: 16px;
 line-height: 24px;
 letter-spacing: 0.02em;
 color: #434455;
+transition: color 250ms linear;
 
 }
 .header-item:hover {
@@ -207,6 +222,7 @@ padding-right: 32px ;
 border: none;
 align-items: center;
 margin-top: 48px;
+transition: background-color 250ms linear, color 300ms linear ;
 
 }
 
@@ -706,6 +722,7 @@ border-radius: 4px;
     border: none;
     border-radius: 4px;
     border: 1px solid #E7E9FC;
+    transition: background-color 250ms linear, color 300ms linear ;
 }
 
 .mobile-list {
@@ -725,6 +742,34 @@ border-radius: 4px;
 .mobile-item {
     list-style: none;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
+position: relative;
+}
+.mobile-item:hover .portfolio-top-text {
+transform: translateY(0%);
+}
+
+.portfolio-top-wrap {
+ position: relative;
+ overflow: hidden;
+}
+
+
+.portfolio-top-text {
+    position: absolute;
+    top: 0;
+    font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #F4F4FD;
+padding: 40px 32px 164px 32px ;
+background: #4D5AE5;
+height: 100%;
+transform: translateY(100%);
+transition: transform 250ms linear;
+
+}
+.portfolio-top-wrap {
+    position: relative;
 }
 
 .portfolio-mobile {
@@ -766,4 +811,52 @@ color: #434455;
 }
 .end-text {
     margin-top: 16px;
+}
+.backdrop {
+    position: fixed;
+    top: 0;
+    width: 100%;
+height: 100%;
+background: rgba(46, 47, 66, 0.4);
+transition: opacity 250ms linear, visibility 250ms linear;
+
+}
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 408px;
+height: 576px;
+background-color: #FCFCFC;
+border-radius: 4px;
+transform: translate(-50%, -50%) scaleX(1) ;
+transition: transform 250ms linear;
+}
+
+.backdrop.is-hidden .modal {
+    transform: translate(-50%, -50%) scaleX(0);
+}
+.modal-close {
+    position: absolute;
+    right: 24px;
+    top: 24px;
+    width: 24px;
+height: 24px;
+background: #E7E9FC;
+border-radius: 50%;
+border: none;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.modal-wrap {
+    width: 8px;
+    height: 8px;
+    
+}
+.is-hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
 }
