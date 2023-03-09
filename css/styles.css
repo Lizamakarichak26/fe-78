@@ -21,6 +21,7 @@ ul,ol {
 }
 .img {
     display: block;
+    height: auto;
 }
 
 body {
@@ -61,7 +62,6 @@ a {
     border-bottom: 1px solid #E7E9FC;
 }
 .container {
-    width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
@@ -384,7 +384,7 @@ margin-bottom: 72px;
 
 .people {
     background-color:  #F4F4FD;
-    padding-bottom: 120px;
+    padding-bottom: 128px;
     box-sizing: border-box;
     padding-top: 120px;
 }
@@ -404,15 +404,16 @@ color:var(--third-title-color);
     display: flex;
    gap: 24px;
    margin-top: 72px;
+   flex-wrap: wrap;
 }
 .list {
     
 }
 .people-item {
  color:    #FFFFFF;
- width: calc((100% - 72px) / 4);
+ width: 100%;
  background: #FFFFFF;
- display: block;
+
 }
 .people-after-title {
 font-family: 'Roboto', sans-serif;
@@ -1098,4 +1099,37 @@ color: #FFFFFF;
     letter-spacing: 0.04em;
     color: #4D5AE5;
     margin-left: 5px;
+}
+@media screen and (min-width: 480px) {
+    .container {
+        max-width: 426px;
+    }
+}
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+    .people {
+        background-color:  #F4F4FD;
+        padding-bottom: 208px;
+        box-sizing: border-box;
+        padding-top: 208px;
+    }
+    .people-item {
+        width: calc((100% - 30px) / 2);
+    }
+}
+@media screen and (min-width: 1200px) {
+    .container {
+        max-width: 1200px;
+    }
+    .people-item {
+        width: calc((100% - 90px) / 4);
+    }
+    .people {
+        background-color:  #F4F4FD;
+        padding-bottom: 128px;
+        box-sizing: border-box;
+        padding-top: 120px;
+    }
 }
