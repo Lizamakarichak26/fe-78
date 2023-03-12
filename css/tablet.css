@@ -1,0 +1,32 @@
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+    .hero {
+    background-color: #2E2F42;
+    padding-top: 188px;
+    width: 1440px;
+    padding-bottom: 188px;
+    background-image:var(--bg-gradient), 
+    url(../img/hero-bg-tab.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    
+}
+    .customers-item {
+        width: calc( (100% - 60px) / 3 );
+        
+         
+    }
+    .people {
+        padding-bottom: 208px;
+        box-sizing: border-box;
+        padding-top: 208px;
+        
+    }
+    .people-item {
+        /* width: calc((100% - 30px) / 2); */
+    }
+}
