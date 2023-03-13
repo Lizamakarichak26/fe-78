@@ -13,6 +13,9 @@
 p,h1,h2,h3,h4,h5,h6 {
     margin: 0;
 }
+.no-scroll {
+    overflow:hidden;
+}
 
 ul,ol {
     margin: 0;
@@ -1201,6 +1204,10 @@ margin-bottom: 48px;
 
 
 }
+.menu-open-icon {
+    stroke: #2E2F42;
+    
+}
 .menu-close-icon {
     width: 8px;
     height: 8px;
@@ -1209,6 +1216,7 @@ margin-bottom: 48px;
 .mob-soc-list {
     display: flex;
     gap: 56px;
+    margin-left: 40px;
 }
 .list {
 }
@@ -1220,3 +1228,28 @@ margin-bottom: 48px;
 .menu-link:focus {
     color: #4D5AE5;
 }
+.menu-close {
+    position: absolute;
+    right: 24px;
+    top: 24px;
+    width: 24px;
+height: 24px;
+background: #E7E9FC;
+border-radius: 50%;
+border: none;
+display: flex;
+justify-content: center;
+align-items: center;
+background: #F4F4FD;
+transition:background-color 250ms linear, color 250ms linear ;
+cursor: pointer;
+border: 1px solid #E7E9FC;
+
+}
+.menu-close:hover,
+.menu-close:focus {
+    background: #404BBF;
+    color: #FFFFFF;
+
+}
+    
