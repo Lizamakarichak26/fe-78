@@ -65,6 +65,7 @@ a {
     border-bottom: 1px solid #E7E9FC;
 }
 .container {
+    max-width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
@@ -73,6 +74,7 @@ a {
 .header > .container {
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 .header-navigation {
     display: flex;
@@ -178,6 +180,7 @@ line-height: 24px;
 letter-spacing: 0.02em;
 color: #434455;
 transition: color 250ms linear;
+
 
 }
 .header-item:hover {
@@ -1252,4 +1255,13 @@ border: 1px solid #E7E9FC;
     color: #FFFFFF;
 
 }
-    
+    @media screen and (max-width: 767px) {
+    .container {
+      max-width: 428px;
+    }
+    .header-list,
+    .header-item,
+    .header-mobile {
+      display: none;
+    } 
+}

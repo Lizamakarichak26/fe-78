@@ -2,9 +2,8 @@
     .container {
         max-width: 426px;
     }
-    .hero-title {
-        font-size: 36px;
-    }
+   
+    
     @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
@@ -13,4 +12,6 @@
           url(../img/hero-bg-mob-2x.jpg);
     }
   }
+ 
+  
 }

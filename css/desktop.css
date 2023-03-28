@@ -1,7 +1,11 @@
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1200px ) {
+   
     .container {
-        max-width: 1200px;
+        max-width: 1158px;
+        padding: 0 15px;
+        
     }
+    
     .hero {
         background-color: #2E2F42;
         padding-top: 188px;
@@ -28,6 +32,7 @@
         
          
     }
+    
     .people-item {
         width: calc((100% - 90px) / 4);
     }
@@ -36,4 +41,8 @@
         box-sizing: border-box;
         padding-top: 120px;
     }
+    .menu-open {
+        display: none;
+    }
+    
 }
