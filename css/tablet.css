@@ -6,6 +6,16 @@
         gap: 40px;
         
       }
+      .menu-open-icon {
+        display: none;
+      }
+      
+      .header-mobile {
+        margin-left: 121px;
+      }
+      .hero {
+        width: 100%;
+      }
       
     .header-list {
         display: flex;

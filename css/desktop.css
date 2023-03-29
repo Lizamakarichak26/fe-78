@@ -5,6 +5,11 @@
         padding: 0 15px;
         
     }
+    .header-mobile {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+    }
     
     .hero {
         background-color: #2E2F42;

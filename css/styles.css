@@ -127,7 +127,6 @@ color: #434455;
     display: none;
 }
 .header-mobile {
-    display: flex;
     align-items: center;
     gap: 40px;
 }
@@ -248,7 +247,11 @@ transition: background-color 250ms linear, color 300ms linear ;
 
 /*-------- HERO----------*/
 .container {
-   
+   width: 100%;
+   margin-right: auto;
+   margin-left: auto;
+   padding-right: 16px;
+   padding-left: 16px;
 }
 
 .hero {
@@ -1210,6 +1213,11 @@ margin-bottom: 48px;
 .menu-open-icon {
     stroke: #2E2F42;
     
+    
+}
+.menu-open {
+    border: none;
+    background-color: transparent;
 }
 .menu-close-icon {
     width: 8px;
