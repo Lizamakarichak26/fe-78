@@ -2,7 +2,41 @@
     .container {
         width: 100%;
     }
-   
+    .mobile {
+      
+    }
+    .feature-link {
+      display: none;
+    }
+    .about {
+      width: 100%;
+    }
+    .about-list {
+      margin-bottom: 96px;
+    }
+    .about-item {
+      margin-bottom: 72px;
+      width: 100%;
+    }
+    .about-first,
+    .about-second,
+    .about-third {
+       margin-bottom: 72px;
+       width: 100%;
+    }
+    .about-title {
+      font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 40px;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+
+color: #2E2F42;
+
+    }
     
     @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
