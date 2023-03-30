@@ -16,6 +16,7 @@
       .hero {
         width: 100%;
       }
+      .m
       
     .header-list {
         display: flex;
@@ -63,7 +64,7 @@
     
 }
 .mobile {
-    
+    display: none;
 }
 
 .feature-link {
@@ -111,7 +112,54 @@ text-transform: capitalize;
 
 color: #2E2F42;
 }
+.end {
+    width: 100%;
+}
+.footer-container {
+    gap: 24px;
+      justify-content: flex-start;
+      padding-left: 108px;
+}
+.logo-footer {
+    text-align: left;
+}
+.media-title {
+    text-align: left;
+}
+.input-footer {
+    display: flex;
+      flex-wrap: nowrap;
+      gap: 24px;
+}
+.logo-end {
+    text-align: left;
+}
+.modal-footer {
+    width: 264px;
+}
+.footer-text {
+    text-align: left;
+}
+.end {
 
+    padding-top: 96px;
+    padding-bottom: 96px;
+    
+}
+.media-title {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+    color: #FFFFFF;
+    text-align: left;
+}
+.logo-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
 
   
 @media (min-device-pixel-ratio: 2),

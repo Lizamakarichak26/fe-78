@@ -3,7 +3,7 @@
         width: 100%;
     }
     .mobile {
-      
+      display: none;
     }
     .feature-link {
       display: none;
@@ -13,6 +13,7 @@
     }
     .about-list {
       margin-bottom: 96px;
+      
     }
     .about-item {
       margin-bottom: 72px;
