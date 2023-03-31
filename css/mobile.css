@@ -15,9 +15,16 @@
       margin-bottom: 96px;
       
     }
+    .logo-wrap {
+      margin-bottom: 72px;
+    }
+
     .about-item {
       margin-bottom: 72px;
       width: 100%;
+    }
+    .logo-end {
+      text-align: center;
     }
     .about-first,
     .about-second,
@@ -37,6 +44,10 @@ text-transform: capitalize;
 
 color: #2E2F42;
 
+    }
+    .input-footer {
+      max-width: 398px;
+      width: 100%;
     }
     
     @media (min-device-pixel-ratio: 2),

@@ -589,7 +589,7 @@ color:var(--third-title-color);
     background: #2E2F42;
 }
 .end {
-
+width: 100%;
     padding-top: 100px;
     padding-bottom: 100px;
     
@@ -654,12 +654,13 @@ font-size: 18px;
 line-height: 1.1;
 letter-spacing: 0.03em;
 color: #4D5AE5;
-margin-left: 70px;
+width: 100%;
+
 }
 .logo-wrap {
     display: flex;
     flex-direction: column;
-   
+    
 }
 
 .end > .container {
@@ -874,6 +875,7 @@ letter-spacing: 0.02em;
 color: #434455;
 }
 .logo-end {
+    text-align: center;
    
 }
 .end-soc-link:hover,
@@ -1118,7 +1120,6 @@ color: #FFFFFF;
 display: block;
 text-align: center;
 margin-bottom: 16px;
-margin-top: 72px;
 
 }
 .modal-footer::placeholder {
@@ -1216,8 +1217,19 @@ color: #FFFFFF;
     display: block;
     margin-left: 380px;
 }
+.mob-menu-item {
+    padding-left: 40px;
+}
 .mob-menu-item:not(:last-child) {
    margin-bottom: 40px;
+   padding-left: 40px;
+}
+.mob-menu-tell {
+    margin-bottom: 40px;
+}
+.mob-menu-email {
+    margin-bottom: 48px;
+    padding-left: 40px;
 }
 .menu-link {
     font-family: 'Roboto';
@@ -1230,11 +1242,19 @@ color: #FFFFFF;
     color: #2E2F42;
     
 }
+
+
 .link {
 }
 .current {
 }
 .mob-menu-mobile {
+    list-style: none;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11s;
+    letter-spacing: 0.02em;
 }
 .mob-menu-item {
     font-family: 'Roboto';
@@ -1273,9 +1293,11 @@ line-height: 24px;
 letter-spacing: 0.02em;
 color: #434455;
 margin-bottom: 48px;
+padding-left: 40px;
 
 
 }
+
 .menu-open-icon {
     stroke: #2E2F42;
     
@@ -1292,9 +1314,31 @@ margin-bottom: 48px;
 }
 .mob-soc-list {
     display: flex;
+    justify-content: flex-start;
     gap: 56px;
     margin-left: 40px;
 }
+.people-soc-item {
+    list-style: none;
+    width: 40px;
+    height: 40px;
+text-align: center;
+}
+.mob-menu-soc-link {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mob-soc-list {
+    display: flex;
+    justify-content: flex-start;
+    gap: 56px;
+}
+
+
 .list {
 }
 .link {

@@ -160,6 +160,9 @@ line-height: 24px;
     flex-direction: column;
     align-items: flex-start;
 }
+.end-text {
+    text-align: left;
+}
 
   
 @media (min-device-pixel-ratio: 2),
