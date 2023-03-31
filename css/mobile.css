@@ -45,10 +45,7 @@ text-transform: capitalize;
 color: #2E2F42;
 
     }
-    .input-footer {
-      max-width: 398px;
-      width: 100%;
-    }
+    
     
     @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
