@@ -93,6 +93,8 @@ align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4D5AE5;
+margin-right: 120px;
+margin-left: 16px;
 }
 .accent {
 font-family: 'Raleway', sans-serif;
@@ -267,20 +269,21 @@ transition: background-color 250ms linear, color 300ms linear ;
     
 }
 .hero-title {
-    font-family: 'Roboto', sans-serif;
-font-weight: 600;
-font-size: 56px;
-line-height: 1.07;
-text-align: center;
-letter-spacing: 0.02em;
-color:var(--first-title-color);
-max-width: 696px;
-margin: 0 auto;
-align-items: center;
-margin-left: auto;
-margin-right: auto;
-margin: auto;
-
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    /* or 111% */
+    
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    
+    /* WHITE */
+    
+    color: #FFFFFF;
+    
 }
 
 
@@ -293,7 +296,7 @@ margin: auto;
 /*-------- ABOUT----------*/
 
 .about {
-    padding-top: 120px;
+    padding-top: 96px;
     
 
    
@@ -331,7 +334,7 @@ margin: auto;
     width: 100%;
   }
   .about-list {
-    margin-bottom: 96px;
+  
     display: flex;
       align-items: center;
       justify-content: center;
@@ -476,13 +479,20 @@ color:var(--third-title-color);
 }
 .people-after-title {
 font-family: 'Roboto', sans-serif;
-font-weight: 600;
+font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 text-align: center;
 color:var(--third-title-color);
 margin-bottom: 8px;
+
+}
+.text {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 
+  0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+border-radius: 0px 0px 4px 4px;
+
 
 }
 
@@ -547,10 +557,17 @@ color:var(--third-title-color);
     margin-top: 72px;
     flex-wrap: wrap;
 }
+.mob-email {
+    margin-top: auto;
+}
+.container-mob {
+    display: flex;
+    flex-direction: column;
+}
 .list {
 }
 .customers-item {
-    width: calc( (100% - 24px) / 2 );
+    width: calc( (100% - 30px) / 2 );
     height: 88px;
      
 }
@@ -1109,6 +1126,7 @@ border-radius: 4px;
 background-color: transparent;
 outline: transparent;
 padding: 10px;
+color: #FFFFFF;
 
 }
 .footer-text {
@@ -1167,6 +1185,7 @@ color: #FFFFFF;
     justify-content: center;
     flex-wrap: wrap;
     gap: 24px;
+
 }
 
 .subscribe-icon{
@@ -1273,16 +1292,16 @@ text-transform: capitalize;
 color: #434455;
 margin-bottom: 284px;
 padding-left: 40px;
+flex-wrap: nowrap;
 
 }
-.mob-menu-item:focus,
-.mob-menu-item:hover{
+.mob-menu-item {
     color: #4D5AE5;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 40px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 26px;
  letter-spacing: 0.02em;
     text-transform: capitalize;
      color: #4D5AE5;
@@ -1337,9 +1356,10 @@ text-align: center;
 .mob-soc-list {
     display: flex;
     justify-content: center;
-    gap: 56px;
+    gap: 45px;
 
 }
+
 
 
 .list {
