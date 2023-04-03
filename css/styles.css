@@ -93,8 +93,7 @@ align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4D5AE5;
-margin-right: 120px;
-margin-left: 16px;
+
 }
 .accent {
 font-family: 'Raleway', sans-serif;
@@ -258,8 +257,8 @@ transition: background-color 250ms linear, color 300ms linear ;
 
 .hero {
     background-color: #2E2F42;
-    padding-top: 188px;
-    padding-bottom: 188px;
+    padding-top: 112px;
+    padding-bottom: 112px;
     background-image:var(--bg-gradient), 
     url(../img/hero-bg-mob.jpg);
     background-repeat: no-repeat;
@@ -410,7 +409,7 @@ color:var(--second-title-color);
 /*-------- MOBILE----------*/
 
 .mobile {
-    padding-top: 120px;
+    
     padding-bottom: 120px;
     display: none;
    
@@ -446,9 +445,9 @@ margin-bottom: 72px;
 
 .people {
     background-color:  #F4F4FD;
-    padding-bottom: 128px;
+    padding-bottom: 96px;
     box-sizing: border-box;
-    padding-top: 120px;
+    padding-top: 96px;
 }
 .people-title {
 font-family: 'Roboto', sans-serif;
@@ -924,12 +923,13 @@ transition: opacity 250ms linear, visibility 250ms linear;
     top: 50%;
     left: 50%;
     width: 408px;
-height: 576px;
+/* height: 576px; */
 background-color: #FCFCFC;
 border-radius: 4px;
 transform: translate(-50%, -50%) scaleX(1) ;
 transition: transform 250ms linear;
 padding: 72px 24px 24px 24px;
+
 }
 
 .backdrop.is-hidden .modal {
@@ -1230,7 +1230,7 @@ color: #FFFFFF;
     border-radius: 2px;
 }
 .mob-menu-list {
-    margin-bottom: 284px;
+    margin-bottom: 40px;
 }
 .list {
 }
@@ -1239,7 +1239,6 @@ color: #FFFFFF;
     margin-left: 380px;
 }
 .mob-menu-item {
-    padding-left: 40px;
     text-decoration: none;
     color: #4D5AE5;
 
@@ -1250,7 +1249,7 @@ color: #FFFFFF;
    padding-left: 40px;
 }
 .mob-menu-tell {
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 .mob-menu-email {
     margin-bottom: 48px;
@@ -1306,7 +1305,6 @@ flex-wrap: nowrap;
     text-transform: capitalize;
      color: #4D5AE5;
 margin-bottom: 284px;
-margin-left: 40px;
 list-style: none;
 transition: background-color 250ms linear, color 250ms linear ;
 }
@@ -1319,7 +1317,6 @@ line-height: 24px;
 letter-spacing: 0.02em;
 color: #434455;
 margin-bottom: 48px;
-padding-left: 10px;
 
 
 }
@@ -1355,9 +1352,9 @@ text-align: center;
 }
 .mob-soc-list {
     display: flex;
-    justify-content: center;
-    gap: 45px;
-
+    gap: 30px;
+    justify-content: flex-start;
+    margin-left: 40px;
 }
 
 
@@ -1410,4 +1407,10 @@ border: 1px solid #E7E9FC;
     .mobile {
         display: none;
     }
+}
+@media screen and (max-width: 427px) {
+    .modal {
+        width: calc(100% - 2 * 15px);  
+    }
+    
 }
