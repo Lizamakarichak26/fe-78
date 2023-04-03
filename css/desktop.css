@@ -9,6 +9,9 @@
         display: flex;
         align-items: center;
         gap: 40px;
+        flex-wrap: nowrap;
+    margin-left: auto;
+    flex-direction: row;
     }
     .hero-title {
         font-family: 'Roboto', sans-serif;
