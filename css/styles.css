@@ -988,7 +988,7 @@ color: #2E2F42;
 margin-bottom: 16px;
 }
 .modal-input {
-    width: 360px;
+    width: 100%;
     height: 40px;
     border: 1px solid rgba(33, 33, 33, 0.2);
 border-radius: 4px;
@@ -1018,7 +1018,7 @@ display: inline-block;
 margin-bottom: 4px;
 }
 .modal-comment {
-    width: 360px;
+    width: 100%;
 height: 120px;
 padding-left: 38px;
 border: 1px solid rgba(33, 33, 33, 0.2);
